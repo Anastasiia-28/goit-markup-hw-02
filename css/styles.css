@@ -1,7 +1,7 @@
 .body{
-font-family: roboto;
-color: black;
-background-color: white;
+font-family: roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 /* header section */
@@ -11,28 +11,31 @@ background-color: white;
 }
 
 .header-logo{
-     font-family: raleway;
+     font-family: raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: #4d5ae5;
 }
 
-.header-logo-web{
-    color: #4D5AE5;
+.header-logo-studio{
+    color: #2e2f42;
 }
 
 .nav-list-link{
      font-family: roboto;
      font-weight: 500;
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5;
         color: #2E2F42;
 }
 
-.nav-list-link:hover{
-    color: #4D5AE5;
+.nav-list-link:hover,
+.nav-list-link:focus{
+    color: #404bbf;
 }
 
 .contact-link{
@@ -40,11 +43,14 @@ background-color: white;
      font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
+        font-style: normal;
 }
 
-.contact-link:hover{
-    color: #4D5AE5;
+.contact-link:hover,
+.contact-link:focus{
+    color: #404bbf;
 }
 
 /* hero section */
@@ -57,28 +63,28 @@ background-color: white;
      font-family: roboto;
      font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
         color: #FFFFFF;
 }
 
 .hero-section-button{
      cursor: pointer;
+     font-family: roboto, sans-serif;
+     font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: #4D5AE5;
 }
 
-.hero-section-button:hover{
+.hero-section-button:hover,
+.hero-section-button:focus{
     background-color: #404BBF;
 }
-
-.button-name{
-    font-family: roboto;
- font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
-}
-
 /* features section */
 
 .features-section{
@@ -89,6 +95,7 @@ background-color: white;
      font-family: roboto;
      font-weight: 500;
         font-size: 20px;
+        letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2E2F42;
 }
@@ -97,6 +104,7 @@ background-color: white;
      font-family: roboto;
      font-weight: 400;
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5;
         color: #434455;
 }
@@ -107,11 +115,18 @@ background-color: white;
     background-color: #F4F4FD;
 }
 
+.team-list-item{
+    background-color: #FFFFFF;
+}
+
 .team-section-name{
      font-family: roboto;
      font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
@@ -119,6 +134,7 @@ background-color: white;
      font-family: roboto;
      font-weight: 500;
         font-size: 20px;
+        letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2E2F42;
 }
@@ -127,6 +143,7 @@ background-color: white;
      font-family: roboto;
      font-weight: 400;
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5;
         color: #434455;
 }
@@ -141,7 +158,10 @@ background-color: white;
       font-family: roboto;
      font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
@@ -149,6 +169,7 @@ background-color: white;
       font-family: roboto;
      font-weight: 500;
         font-size: 20px;
+        letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2E2F42;
 }
@@ -157,6 +178,7 @@ background-color: white;
       font-family: roboto;
      font-weight: 400;
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5;
         color: #434455;
 }
@@ -168,22 +190,24 @@ background-color: white;
 }
 
 .footer-logo{
-     font-family: raleway;
+     font-family: raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        line-height: 1.17;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4d5ae5;
 }
 
-.footer-logo-web{
-    color: #4D5AE5;
+.footer-logo-studio{
+    color: #f4f4fd;
 }
 
 .footer-paragraf{
      font-family: roboto;
      font-weight: 400;
         font-size: 16px;
+        letter-spacing: 0.02em;
         line-height: 1.5;
         color: #F4F4FD;
 }
