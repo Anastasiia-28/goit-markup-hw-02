@@ -1,5 +1,5 @@
-.body{
-font-family: roboto, sans-serif;
+body{
+font-family: "roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
@@ -11,7 +11,7 @@ background-color: #FFFFFF;
 }
 
 .header-logo{
-     font-family: raleway, sans-serif;
+     font-family: "raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -71,13 +71,12 @@ background-color: #FFFFFF;
 
 .hero-section-button{
      cursor: pointer;
-     font-family: roboto, sans-serif;
+     font-family: "roboto", sans-serif;
      font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: #4D5AE5;
 }
 
@@ -190,7 +189,7 @@ background-color: #FFFFFF;
 }
 
 .footer-logo{
-     font-family: raleway, sans-serif;
+     font-family: "raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         letter-spacing: 0.03em;
